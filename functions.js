@@ -7,6 +7,7 @@ function list (clients) {
   ).join('')
 }
 
+
 function order (clients, property) {
   return clients.sort((a, b) => {
     if (a[property] < b[property]) {
